@@ -1,11 +1,13 @@
 <template lang="html">
-  <div>
-     <p>A Wonderful Quote!</p>
-  </div>
+    <div>
+        <slot></slot>
+    </div>
 </template>
 
 <script>
-export default {};
+export default {
+    props: ['quote'],
+};
 </script>
 
 <style scoped>
