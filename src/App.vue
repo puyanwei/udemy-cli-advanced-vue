@@ -13,6 +13,8 @@
 
 <script>
 import appQuote from './components/Quote.vue';
+import appAuthor from './components/Author.vue';
+import appNew from './components/New.vue';
 
 export default {
     data: function() {
@@ -22,6 +24,8 @@ export default {
     },
     components: {
         appQuote,
+        appAuthor,
+        appNew,
     },
 };
 </script>
